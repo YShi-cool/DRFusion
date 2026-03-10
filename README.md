@@ -47,11 +47,17 @@ Degradation-Robust-Fusion/
 
 ## 🚀 Quick Start
 Testing
+
 You can quickly evaluate our model using the provided bash script. Pre-trained weights [Google Drive](https://drive.google.com/drive/folders/1o6V0B5PlzQx_qWijsK_R5SsghbnSAfuI?usp=sharing) should be placed in the weight/ directory.
 ```
 python test.py
 ```
+> 💡 **Important Note for Different Scenarios:** > To accommodate various datasets and degradation scenarios, we provide customized training, testing, and model scripts. These specific scripts are bundled within their respective pre-trained weight folders. 
+
+> **How to use:** Simply extract these customized scripts from the downloaded weight folder and place them into the root directory of this project (overwriting the default ones) before running your tests.
+
 Training
+
 To train the framework, simply run:
 ```
 python train.py
